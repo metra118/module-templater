@@ -1,1 +1,3 @@
-export interface GetTEMPLATEParam {}
+export interface GetTEMPLATEParam {
+  versionId: string
+}

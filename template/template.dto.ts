@@ -1,1 +1,3 @@
-export interface TEMPLATEDto {}
+export interface TEMPLATEDto {
+  versionId: string
+}

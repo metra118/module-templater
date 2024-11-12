@@ -1,1 +1,1 @@
-export const GET_TEMPLATE_QUERY = '';
+export const GET_TEMPLATE_QUERY: string = ``

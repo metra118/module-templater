@@ -1,1 +1,3 @@
-export interface TEMPLATERaw {}
+export interface TEMPLATERaw {
+  versionId: string
+}
