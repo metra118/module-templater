@@ -47,8 +47,8 @@ def copy_and_rename_directory(module_filenames: list[str], module_consts: list[s
 # Функция для парсинга параметров командной строки
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Копирование и переименование шаблонной директории.")
-    parser.add_argument("--filename", type=str, nargs='+', required=True, help="Имя файлов без префиксов (module.ts, service.ts).")
-    parser.add_argument("--const", type=str, nargs='+', required=True, help="Имя констант без суффиксов (Module, Service).")
+    parser.add_argument("--filename", "-f", type=str, required=True, help="Имя файлов без префиксов (module.ts, service.ts).")
+    parser.add_argument("--const", "-c", type=str, required=True, help="Имя констант без суффиксов (Module, Service).")
     
     args = parser.parse_args()
     
@@ -56,4 +56,4 @@ def parse_arguments():
 
 if __name__ == "__main__":
     filenames, consts = parse_arguments()
-    copy_and_rename_directory(filenames, consts)
+    copy_and_rename_directory([filenames], [consts])
