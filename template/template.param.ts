@@ -1,3 +1,3 @@
-export interface GetTEMPLATEParam {
-  versionId: string
+export interface Get$$TEMPLATE$$Param {
+  versionId: string;
 }

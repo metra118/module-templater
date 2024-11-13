@@ -1,1 +1,1 @@
-export class TEMPLATEMapper {}
+export class $$TEMPLATE$$Mapper {}

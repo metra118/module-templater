@@ -1,3 +1,3 @@
-export interface TEMPLATERaw {
-  versionId: string
+export interface $$TEMPLATE$$Raw {
+  versionId: string;
 }

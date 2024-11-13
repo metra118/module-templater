@@ -1,7 +1,7 @@
 import { Column, Entity, PrimaryColumn } from 'typeorm';
 
 @Entity()
-export class TEMPLATEEntity {
+export class $$TEMPLATE$$Entity {
   @PrimaryColumn('uuid')
   versionId: string;
 

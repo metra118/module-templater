@@ -1,3 +1,3 @@
-export interface TEMPLATEDto {
-  versionId: string
+export interface $$TEMPLATE$$Dto {
+  versionId: string;
 }

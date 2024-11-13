@@ -1,1 +1,1 @@
-export const GET_TEMPLATE_QUERY: string = ``
+export const GET_$$TEMPLATE_SCREAMING$$_QUERY: string = ``;

@@ -3,17 +3,16 @@
 ### использование
 
 ```bash
-python3 module-templater.py --filename FILENAME --const CONST
+python3 module-templater.py --filename FILENAME [FILENAME ...]
 ```
 
 ### аргументы
 
 1. --filename/-f - имя файлов без суффиксов и расширений (module.ts, controller.ts)
-2. --const/-c - имя константы без суффиксов и расширений (Module, Controller)
 
 
 ### пример
 
 ```bash
-python3 module-templater.py -f sales-amounts -c SalesAmounts
+python3 module-templater.py -f sales-amounts strategic-periods
 ```

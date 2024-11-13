@@ -1,8 +1,8 @@
 import { Repository } from 'typeorm';
 
-import { TEMPLATEEntity } from './template.entity';
+import { $$TEMPLATE$$Entity } from './template.entity';
 
 import { CustomRepository } from '~/common/typeorm/custom-typeorm.decorator';
 
-@CustomRepository(TEMPLATEEntity)
-export class TEMPLATERepository extends Repository<TEMPLATEEntity> {}
+@CustomRepository($$TEMPLATE$$Entity)
+export class $$TEMPLATE$$Repository extends Repository<$$TEMPLATE$$Entity> {}
